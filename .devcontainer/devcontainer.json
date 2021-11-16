@@ -1,0 +1,24 @@
+{
+    "name": "downloader",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "downloader",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "editor.guides.bracketPairs": true,
+        "editor.bracketPairColorization.enabled": true,
+        "markdown-preview-enhanced.previewTheme": "github-dark.css",
+        "markdownlint.run": "onSave",
+        "[json]": {
+            "editor.formatOnSave": true,   
+        },
+        "[markdown]": {
+            "editor.formatOnSave": true,   
+        },
+    },
+    "extensions": [
+		"ms-azuretools.vscode-docker",
+		"njpwerner.autodocstring",
+		"shd101wyy.markdown-preview-enhanced",
+		"ms-python.python"
+	],
+}
